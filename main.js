@@ -2,6 +2,7 @@ const gameEngine = new GameEngine();
 
 const ASSET_MANAGER = new AssetManager();
 
+// thanks chierit :) 
 ASSET_MANAGER.queueDownload("./assets/Boss.png");
 ASSET_MANAGER.queueDownload("./assets/Background.png");
 
